@@ -13,7 +13,7 @@ from backend.history.cosmosdbservice import CosmosConversationClient
 load_dotenv()
 
 app = Flask(__name__, static_folder="static")
-
+##
 # Static Files
 @app.route("/")
 def index():
